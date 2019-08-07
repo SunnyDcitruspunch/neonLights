@@ -3,14 +3,15 @@ import Header from "./component/Header";
 import AboutMe from "./component/AboutMe";
 import Skills from "./component/Skills";
 import Contact from "./component/Contact";
+import Footer from "./component/Footer";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      {/* <AboutMe /> 
-      <br />
-      <Skills />*/}
+      <AboutMe />
+      <Contact />
+      <Footer />
     </div>
   );
 }

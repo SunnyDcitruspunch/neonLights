@@ -1,15 +1,23 @@
 import React from "react";
+import "./Contact.css";
+
+// need to re adjust css for different screen Sizzle.
 
 const Contact = () => {
   return (
-    <div id="contactContainer">
-      <div id="border" />
-      <div id="blocker-1" />
-      <div id="blocker-2" />
-      <h2>Contact Me</h2>
-      <text>385-539-0599</text>
-      <br />
-      <text>hahasunny97@gmail.com</text>
+    <div>
+      <a href="https://www.linkedin.com/in/sunny-yang-05ab11106/">
+        <h2 className="linkedin" data-text="U">
+          LIN<span class="flicker-slow">K</span>E
+          <span class="flicker-fast">D</span>IN
+        </h2>
+      </a>
+      <a href="https://github.com/SunnyDcitruspunch?tab=repositories">
+        <h2 className="github" data-text="U">
+          Gi<span class="flicker-slow">t</span>h
+          <span class="flicker-fast">u</span>b
+        </h2>
+      </a>
     </div>
   );
 };

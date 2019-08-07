@@ -1,0 +1,44 @@
+.linkedin{
+    font-family: 'Monoton', cursive;
+    font-size: 40px;
+    color: #0cbfe9;
+    position: absolute;
+    /* top: 50%; */
+    left: 20%;
+    /* transform: translate(-50%, -50%); */
+    font-weight: 400;
+    letter-spacing: 8px;
+    text-shadow: 1px 0px 4px #4875B4, 2px 0px 4px #4875B4, 3px 0px 4px #4875B4, 2px 0px 3px #395d90, 2px 3px 15px #395d90, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #395d90,40px 0vw 200px #395d90;
+  }
+
+.github{
+    font-family: 'Monoton', cursive;
+    font-size: 40px;
+    color: #0cbfe9;
+    position: absolute;
+    /* top: 50%; */
+    right: 30%;
+    /* transform: translate(-50%, -50%); */
+    font-weight: 400;
+    letter-spacing: 8px;
+    text-shadow: 1px 0px 4px #4875B4, 2px 0px 4px #4875B4, 3px 0px 4px #4875B4, 2px 0px 3px #395d90, 2px 3px 15px #395d90, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #395d90,40px 0vw 200px #395d90;
+  }
+  
+  .flicker-slow{
+    animation: effect 3s linear infinite;
+  }
+  
+  .flicker-fast{
+    animation: effect 1s linear infinite;
+  }
+  
+  @keyframes effect {
+	0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+        opacity: .99;
+		
+	}
+	20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+		opacity: 0.4;
+    }    
+}
+
