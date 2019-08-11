@@ -6,6 +6,7 @@
   text-transform: uppercase;
   animation: flicker2 1.5s infinite alternate;
   font-family: clipneon;
+  background-color: black;
 }
 
 #footerposition {

@@ -1,14 +1,14 @@
 import React from "react";
 import "./Footer.css";
 
-const Header = () => {
+const Footer = () => {
   return (
     <div id="footerposition">
-      <text id="footer" contenteditable spellcheck="false">
+      <p id="footer" spellCheck="false">
       © &nbsp;2019 &nbsp;SUNNY YANG
-      </text>
+      </p>
     </div>
   );
 };
 
-export default Header;
+export default Footer;

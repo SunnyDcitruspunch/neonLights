@@ -6,23 +6,26 @@ const AboutMe = () => {
     <div>
       <div id="containaboutme">
         <div className="sign">
-          <i class="fa fa-heart-o heart-off" aria-hidden="true" />
-          &nbsp; <text>ABOUT ME</text>
+          <i className="fa fa-heart-o heart-off" aria-hidden="true" />
+          &nbsp; <span>ABOUT ME</span>
         </div>
         <br />
         <div className="smallersign">
-          <text style={{ fontSize: 36 }}>
+          <p style={{ fontSize: 36 }}>
             - BRIGHAM YOUNG UNIVERSITY
             <br />
             - Information Systems
             <br />- GPA: 3.5
-          </text>
+          </p>
         </div>
       </div>
       <br />
       <div id="containaboutme">
-        <div class="sign-three">
-          <div class="jackpots">DOWNLOAD RESUME</div>
+        <div className="sign-three">
+          <div className="jackpots">
+            <i className="fa fa-file-o" aria-hidden="true" />
+            &nbsp; DOWNLOAD RESUME
+          </div>
         </div>
       </div>
     </div>

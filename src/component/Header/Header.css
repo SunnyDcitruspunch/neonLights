@@ -20,6 +20,16 @@
   text-align: center;
   vertical-align: middle;
   font-family: clipneon;
+
+  background-color: black;
+  /* padding: 50px 10px; */
+  /* text-align: center; */
+  /* font-weight: bold; */
+  /* position: fixed; */
+  /* top: 0; */
+  /* width: 100%; */
+  transition: 0.2s;
+  margin-bottom: 200px;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
@@ -34,12 +44,11 @@
 }
 
 body {
-  font-family: "Exo 2", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   background: #000;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 h1 {
