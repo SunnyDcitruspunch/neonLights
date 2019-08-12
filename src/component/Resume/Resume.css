@@ -5,11 +5,18 @@
 }
 
 #resumecontainer {
-  align-self: right;
-  text-align: right;
-  height: 15em;
-  padding: 0em 0em 5em 8em;
+  align-self: center;
+  text-align: center;
+  height: 20em;
+  padding: 3em 0em 3em 0em;
 }
+
+.fa-cloud-download {
+    font-size: 3em;
+    margin-left: 15px;
+    color: #fbb4ff;
+    text-shadow: -0.1vw 0vw 0.25vw #fbb4ff, -0.2vw 0vw 0.25vw #e82ff5;
+  }
 
 .letter {
   font-size: 3em;

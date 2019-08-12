@@ -14,6 +14,8 @@ const AboutMe = () => {
           <div>
             - BRIGHAM YOUNG UNIVERSITY
             <br />
+            - English / Mandarin / Taiwanese
+            <br />
             - Information Systems
             <br />- GPA: 3.5
           </div>

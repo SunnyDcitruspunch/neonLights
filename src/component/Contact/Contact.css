@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-
 .linkedin {
   color: #4875b4;
   font-family: clipneon;
@@ -21,7 +19,7 @@
   text-decoration: none;
   color: #f0d6de;
   font-family: clipneon;
-  font-size: 6vw;
+  font-size: 7vw;
   line-height: 6vw;
   margin-right: 7vw;
   text-shadow: 0.1vw 0vw 0.2vw #f0d6de, 0.2vw 0vw 0.2vw #f0d6de,
@@ -35,7 +33,7 @@
 
 #iconcontainer {
   /* display: table-cell; */
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   text-align: center;
   vertical-align: middle;
   display: flex;
@@ -80,13 +78,13 @@ h4 {
   font-size: 3em;
   margin: 5px 0 5px 0;
   color: #4dd0e1;
-  font-family: 'Montserrat', sans-serif;
+  font-family: clipneon;
 }
 
 h4 a {
   font-size: 1.0em;
   color: #4dd0e1;
-  font-family: 'Montserrat', sans-serif;
+  font-family: clipneon;
   text-decoration: none;
 }
 

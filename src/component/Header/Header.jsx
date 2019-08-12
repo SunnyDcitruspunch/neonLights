@@ -7,7 +7,7 @@ export default class Header extends React.Component {
   }
   resizeHeaderOnScroll() {
     const distanceY = window.pageYOffset || document.documentElement.scrollTop,
-      shrinkOn = 200,
+      shrinkOn = 30,
       headerEl = document.getElementById("js-header");
 
     if (distanceY > shrinkOn) {
