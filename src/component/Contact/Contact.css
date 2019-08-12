@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 .linkedin {
   color: #4875b4;
   font-family: clipneon;
@@ -16,11 +18,12 @@
 }
 
 .sign-four {
+  text-decoration: none;
   color: #f0d6de;
   font-family: clipneon;
   font-size: 6vw;
   line-height: 6vw;
-  margin-right: 10vw;
+  margin-right: 7vw;
   text-shadow: 0.1vw 0vw 0.2vw #f0d6de, 0.2vw 0vw 0.2vw #f0d6de,
     0.4vw 0vw 0.2vw #f0d6de, 0.1vw 0vw 0.1vw #f181b2, 0.2vw 0vw 0vw #f181b2,
     0.4vw 0vw 0vw #f181b2, 0.1vw 0vw 0.1vw #f181b2, 0.2vw 0vw 0.1vw #f181b2,
@@ -32,11 +35,9 @@
 
 #iconcontainer {
   /* display: table-cell; */
-  margin-top: 150px;
   margin-bottom: 150px;
   text-align: center;
   vertical-align: middle;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,52 +72,46 @@
     opacity: 0.4;
   }
 }
-/* 
-p {
-  --interval: 1s;
-  line-height: 1.1;
-  display: block;
-  text-shadow: 
-    0 0 10px var(--color1),
-    0 0 20px var(--color2),
-    0 0 40px var(--color3),
-    0 0 80px var(--color4);
-  will-change: filter, color;
-  filter: saturate(60%);
-  animation: flicker steps(100) var(--interval) 1s infinite;
+
+h4 {
+  align-self: center;
+  text-align: center;
+  vertical-align: center;
+  font-size: 3em;
+  margin: 5px 0 5px 0;
+  color: #4dd0e1;
+  font-family: 'Montserrat', sans-serif;
 }
 
-p:nth-of-type(1) {
-  color: azure;
-  --color1: azure;
-  --color2: aqua;
-  --color3: dodgerblue;
-  --color4: blue;
+h4 a {
+  font-size: 1.0em;
+  color: #4dd0e1;
   font-family: 'Montserrat', sans-serif;
-} */
-
-/* .neon{
-  font-family: 'Montserrat', sans-serif;
-  font-size:130px;
-  color: #FFD5FF;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-weight: 400;
-  letter-spacing: 8px;
-  text-shadow: 1px 0px 4px #FFD5FF, 2px 0px 4px #FFD5FF, 3px 0px 4px #FFD5FF, 2px 0px 3px #D42CCA, 2px 3px 15px #D42CCA, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #D42CCA,40px 0vw 200px #D42CCA;
+  text-decoration: none;
 }
 
-.neon1{
-  font-family: 'Montserrat', sans-serif;
-  font-size:130px;
-  color: #FFD5FF;
-  position: absolute;
-  top: 90%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-weight: 400;
-  letter-spacing: 8px;
-  text-shadow: 1px 0px 4px #FFD5FF, 2px 0px 4px #FFD5FF, 3px 0px 4px #FFD5FF, 2px 0px 3px #D42CCA, 2px 3px 15px #D42CCA, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #D42CCA,40px 0vw 200px #D42CCA;
-} */
+h4 a:hover {
+  -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon2 1.5s ease-in-out infinite alternate;
+  animation: neon2 1.5s ease-in-out infinite alternate;
+  text-decoration: none;
+}
+
+@keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #4dd0e1, 0 0 70px #4dd0e1, 0 0 80px #4dd0e1;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #4dd0e1, 0 0 35px #4dd0e1;
+  }
+}
+
+/* mozilla */
+@-moz-keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+  }
+}

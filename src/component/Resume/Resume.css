@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Liberty";
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/907368/liberty.otf")
+    format("otf");
+}
+
+#resumecontainer {
+  align-self: right;
+  text-align: right;
+  height: 15em;
+  padding: 0em 0em 5em 8em;
+}
+
+.letter {
+  font-size: 3em;
+  font-family: clipneon;
+  color: #d9fdff;
+  text-shadow: 0 0 2rem #00f0ff;
+  display: inline-block;
+}
+
+.letter-2 {
+  transform: translate(-0.2rem, 1rem) rotate(10deg);
+  animation: flicker1 2s ease-in-out infinite alternate;
+}
+
+@keyframes flicker1 {
+  0% {
+    opacity: 1;
+    transform: translate(-0.2rem, 1rem) rotate(10deg);
+  }
+
+  5% {
+    opacity: 1;
+    transform: translate(-0.2rem, 1rem) rotate(10deg);
+  }
+
+  5.5% {
+    opacity: 0;
+    transform: translate(-0.2rem, 1rem) rotate(10deg);
+  }
+
+  6% {
+    opacity: 1;
+    transform: translate(-0.2rem, 1rem) rotate(10deg);
+  }
+
+  6.5% {
+    opacity: 1;
+    transform: translate(-0.2rem, 1rem) rotate(10deg);
+  }
+
+  7% {
+    opacity: 0;
+    transform: translate(-0.2rem, 1rem) rotate(10deg);
+  }
+
+  8% {
+    opacity: 1;
+    transform: translate(-0.2rem, 1rem) rotate(10deg);
+  }
+
+  50% {
+    opacity: 1;
+    transform: translate(-0.2rem, 1rem) rotate(13deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(-0.2rem, 1rem) rotate(10deg);
+  }
+}

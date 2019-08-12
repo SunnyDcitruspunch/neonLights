@@ -22,6 +22,7 @@ export default class Header extends React.Component {
       <div>
         <div id="container">
           <header id="js-header">
+            <br />
             <h1 id="logo">SUNNY YANG</h1>
           </header>
         </div>

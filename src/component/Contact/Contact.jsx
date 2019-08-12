@@ -6,23 +6,27 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <div id="iconcontainer">
-      <span className="sign-four">
-        <i className="fa fa-github" aria-hidden="true" />
-      </span>
-{/* 
-      <h1 className="neon">
-        HEAL<span className="flicker-slow">T</span>H
-        <span className="flicker-fast">LI</span>NK
-      </h1>
-      <br />
-      <h1 className="neon1">
-        COOPE<span className="flicker-slow">RA</span>T
-        <span className="flicker-fast">I</span>VE
-      </h1> */}
+      <a href="https://github.com/SunnyDcitruspunch">
+        <span className="sign-four">
+          <i className="fa fa-github" aria-hidden="true" />
+        </span>
+      </a>
 
-      <span className="linkedin">
-        <i className="fa fa-linkedin-square" aria-hidden="true" />
-      </span>
+      <div id="hlink">
+        <h4>
+          <a href="https://www.healthlinkcooperative.org/">
+            HEALTHLINK
+            <br />
+            COOPERATIVE
+          </a>
+        </h4>
+      </div>
+
+      <a href="https://www.linkedin.com/in/sunny-yang-05ab11106/">
+        <span className="linkedin">
+          <i className="fa fa-linkedin-square" aria-hidden="true" />
+        </span>
+      </a>
     </div>
   );
 };
