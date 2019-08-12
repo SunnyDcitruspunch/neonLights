@@ -11,22 +11,20 @@ const AboutMe = () => {
         </div>
         <br />
         <div className="smallersign">
-          <p style={{ fontSize: 36 }}>
+          <div >
             - BRIGHAM YOUNG UNIVERSITY
             <br />
             - Information Systems
             <br />- GPA: 3.5
-          </p>
+          </div>
         </div>
       </div>
       <br />
       <div id="containaboutme">
-        <div className="sign-three">
           <div className="jackpots">
             <i className="fa fa-file-o" aria-hidden="true" />
             &nbsp; DOWNLOAD RESUME
           </div>
-        </div>
       </div>
     </div>
   );

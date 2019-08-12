@@ -5,7 +5,6 @@ export default class Header extends React.Component {
   componentDidMount() {
     window.addEventListener("scroll", this.resizeHeaderOnScroll);
   }
-
   resizeHeaderOnScroll() {
     const distanceY = window.pageYOffset || document.documentElement.scrollTop,
       shrinkOn = 200,
@@ -21,22 +20,12 @@ export default class Header extends React.Component {
   render() {
     return (
       <div>
-        <header id="js-header">
-          <div id="container">
-            <h1>SUNNY YANG</h1>
-          </div>
-        </header>
+        <div id="container">
+          <header id="js-header">
+            <h1 id="logo">SUNNY YANG</h1>
+          </header>
+        </div>
       </div>
     );
   }
 }
-
-// const Header = () => {
-//   return (
-//     <div id="container">
-//       <h1 spellCheck="false">
-//         SUNNY YANG
-//       </h1>
-//     </div>
-//   );
-// };
