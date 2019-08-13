@@ -22,7 +22,10 @@ const Contact = () => {
         </h4>
       </div>
 
-      <a target="blank" href="https://www.linkedin.com/in/sunny-yang-05ab11106/">
+      <a
+        target="blank"
+        href="https://www.linkedin.com/in/sunny-yang-05ab11106/"
+      >
         <span className="linkedin">
           <i className="fa fa-linkedin-square" aria-hidden="true" />
         </span>

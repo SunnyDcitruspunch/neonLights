@@ -1,8 +1,8 @@
 import React from "react";
-import Header from "./component/Header/Header"
+import Header from "./component/Header/Header";
 import AboutMe from "./component/AboutMe/AboutMe";
-import Skills from "./component/Skills/Skills";
-import Resume from "./component/Resume/Resume"
+import Timeline from "./component/Timeline/Timeline";
+import Resume from "./component/Resume/Resume";
 import Contact from "./component/Contact/Contact";
 import Footer from "./component/Footer/Footer";
 
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Header />
       <AboutMe />
-      <Skills />
+      <Timeline />
       <Resume />
       <Contact />
       <Footer />

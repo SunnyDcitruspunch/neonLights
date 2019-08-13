@@ -14,6 +14,8 @@ const AboutMe = () => {
           <div>
             - BRIGHAM YOUNG UNIVERSITY
             <br />
+            - Taiwan, Taipei
+            <br />
             - English / Mandarin / Taiwanese
             <br />
             - Information Systems
