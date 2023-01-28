@@ -15,15 +15,11 @@
   vertical-align: middle;
   font-family: clipneon;
   height: 20em;
-  background-color: black;
   transition: 0.2s;
 }
 
 :root {
-  /* Base font size */
   font-size: 10px;
-
-  /* Set neon color */
   --neon-text-color: #f5d300;
   --neon-border-color: #f148fb;
 }
@@ -32,7 +28,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: black;
 }
 
 
@@ -54,13 +49,11 @@ header {
   top: 0;
   left: 0;
   z-index: 999;
-  background-color: #000;
   transition: height 0.3s;
 }
 
 header.smaller {
   height: 120px;
-  background-color: #000;
 }
 
 header.smaller h1#logo {
