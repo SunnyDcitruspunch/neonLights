@@ -9,7 +9,7 @@ const Resume = () => {
       <div>
         <div className="sign3">
           <i className="fa fa-heart-o heart-off" aria-hidden="true" />
-          &nbsp; <span>FIND ME</span>
+          &nbsp; <span>CONTACT ME</span>
         </div>
       </div>
       <div id="resumecontainer">

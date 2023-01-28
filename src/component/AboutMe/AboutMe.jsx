@@ -16,7 +16,7 @@ const AboutMe = () => {
             <br />
             - Taiwan, Taipei
             <br />
-            - English / Mandarin / Taiwanese
+            - English / Mandarin
             <br />
             - Information Systems
             <br />- GPA: 3.5
