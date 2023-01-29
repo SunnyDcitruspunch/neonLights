@@ -10,7 +10,7 @@ const AboutMe = () => {
         <div>
           <p>
             - Currently working as L2 Full Stack Software Engineer at{' '}
-            <a target='_blank' href='https://www.databased.com/'>
+            <a target='_blank' rel='noopener noreferrer' href='https://www.databased.com/'>
               DataBased
             </a>
           </p>

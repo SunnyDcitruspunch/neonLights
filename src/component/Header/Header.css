@@ -41,12 +41,12 @@ body {
   animation: flicker 1.5s infinite alternate;
 }
 
-#header-smaller {
+#header-smallerTitle {
   margin-right: calc(100px + var(--spacing-size-d));
   position: fixed;
   right: 0;
 }
-#header-smaller h1 {
+#header-smallerTitle h1 {
   font-size: var(--l-text-size);
 }
 
@@ -69,7 +69,7 @@ header {
 .header-titleWrapper h1 {
   display: inline-block;
   line-height: 2em;
-  margin: 0;
+  margin-top: var(--spacing-size-d);
   padding: 0 1em;
   font-size: 60px;
   color: #fcfcfc;
@@ -89,8 +89,16 @@ header {
   color: var(--neon-text-color);
 }
 
+@media only screen and (max-width: 500px) {
+  .header-titleWrapper h1 {
+    font-size: var(--m-text-size);
+  }
 
-/* Animate neon flicker */
+  #header-smallerTitle {
+    margin-right: var(--spacing-size-b);
+  }
+}
+
 @keyframes flicker {
   0%,
   19%,
