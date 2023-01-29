@@ -6,8 +6,7 @@ const Resume = () => {
   return (
     <div>
       <Title title='contact me' />
-      <div id='resumecontainer'>
-        <h2 className='resume'>
+      <div className='resume'>
           <i className='fa fa-envelope-o letter-2' aria-hidden='true' />
           &nbsp;
           <span className='letter letter-1'>ha</span>
@@ -29,12 +28,12 @@ const Resume = () => {
             <span className='letter letter-4'>U</span>
             <span className='letter letter-2'>M</span>
             <span className='letter letter-4'>E</span>
+            <span className='letter letter-1'> (Eng)</span>
           </span>
           &nbsp;
-          <span>
+          <a target='_blank' href='https://drive.google.com/file/d/1lGzqJEUTDQZMpb4uleaSNOjOffY2sSyq/view?usp=share_link'>
             <i className='fa fa-cloud-download letter-2' aria-hidden='true' />
-          </span>
-        </h2>
+          </a>
       </div>
     </div>
   )
