@@ -22,13 +22,8 @@
   line-height: 3vw;
   margin-bottom: 50;
   color: #fff;
-  text-shadow: 
-    /* .1vw 0vw .25vw #FDF8FD, .2vw 0vw .25vw #FDF8FD, .4vw 0vw .25vw #FDF8FD,  */
-    /* .1vw 0vw .1vw #F1EC81, .2vw 0vw 0vw #F1EC81, .4vw 0vw 0vw #F1EC81, */
-    /* .1vw 0vw .1vw #F1EC81, .2vw 0vw .1vw #F1EC81, .4vw 0vw 0vw #F1EC81, */
-    .1vw 0vw 1vw #F1EC81, .2vw 0vw 2vw #F1EC81, .4vw 0vw 2vw #F1EC81, .2vw 0vw 5vw #F1EC81,
+  text-shadow: .1vw 0vw 1vw #F1EC81, .2vw 0vw 2vw #F1EC81, .4vw 0vw 2vw #F1EC81, .2vw 0vw 5vw #F1EC81,
     .1vw 0vw .5vw #F2E90B, .2vw 0vw .5vw #F2E90B, .4vw 0vw 6vw #F2E90B;
-    /* .1vw 0vw 2vw #F2E90B, .2vw 0vw 5vw #F2E90B, .4vw 0vw 0vw #F2E90B; */
 }
 
 .scrolling h3 {

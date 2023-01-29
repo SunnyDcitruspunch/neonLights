@@ -1,20 +1,17 @@
-import React from "react";
-import "./Contact.css";
-
-// need to re adjust css for different screen Sizzle.
+import React from 'react'
+import './Contact.css'
 
 const Contact = () => {
   return (
-    <div id="iconcontainer">
-      <a target="blank" href="https://github.com/SunnyDcitruspunch">
-        <span className="sign-four">
-          <i className="fa fa-github" aria-hidden="true" />
+    <div id='iconcontainer'>
+      <a target='blank' href='https://github.com/SunnyDcitruspunch'>
+        <span className='sign-four'>
+          <i className='fa fa-github' aria-hidden='true' />
         </span>
       </a>
-
-      <div id="hlink">
+      <div id='hlink'>
         <h4>
-          <a target="blank" href="https://www.healthlinkcooperative.org/">
+          <a target='blank' href='https://www.healthlinkcooperative.org/'>
             HEALTHLINK
             <br />
             COOPERATIVE
@@ -22,16 +19,13 @@ const Contact = () => {
         </h4>
       </div>
 
-      <a
-        target="blank"
-        href="https://www.linkedin.com/in/sunny-yang-05ab11106/"
-      >
-        <span className="linkedin">
-          <i className="fa fa-linkedin-square" aria-hidden="true" />
+      <a target='blank' href='https://www.linkedin.com/in/sunny-yang-05ab11106/'>
+        <span className='linkedin'>
+          <i className='fa fa-linkedin-square' aria-hidden='true' />
         </span>
       </a>
     </div>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact

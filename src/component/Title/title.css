@@ -1,0 +1,30 @@
+.title {
+  align-items: baseline;
+  display: flex;
+}
+.title i {
+  margin-right: var(--spacing-size-b);
+}
+
+.title-heartIcon {
+  animation: heart 0.1s ease infinite;
+  color: #fbb4ff;
+  font-size: 45px;
+  text-shadow: -0.1vw 0vw 0.25vw #fbb4ff, -0.2vw 0vw 0.25vw #fbb4ff,
+    -0.4vw 0vw 0.25vw #fbb4ff, -0.1vw 0vw 1vw #e82ff5, -0.2vw 0vw 0.8vw #e82ff5,
+    -0.4vw 0vw 0.8vw #e82ff5, 0.2vw 0vw 0.5vw #e82ff5, -0.1vw 0vw 10vw #cb16fa,
+    -0.2vw 0vw 10vw #cb16fa, -0.4vw 0vw 10vw #cb16fa;
+
+  -moz-animation: heart 0.1s ease infinite;
+  -webkit-animation: heart 0.1s ease infinite;
+  -o-animation: heart 0.1s ease infinite;
+}
+
+.title h1 {
+  color: #fff;
+  font-family: clipneon;
+  font-size: calc(var(--l-text-size)*2);
+  line-height: 3vh;
+  text-shadow: .1vw 0vw 1vw #F1EC81, .2vw 0vw 2vw #F1EC81, .4vw 0vw 2vw #F1EC81, .2vw 0vw 5vw #F1EC81,
+  .1vw 0vw .5vw #F2E90B, .2vw 0vw .5vw #F2E90B, .4vw 0vw 6vw #F2E90B;
+}

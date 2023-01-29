@@ -1,16 +1,13 @@
-import React from "react";
-import "./AboutMe.css";
+import React from 'react'
+import Title from '../Title/Title'
+import './AboutMe.css'
 
 const AboutMe = () => {
   return (
     <div>
-      <div id="containaboutme">
-        <div className="sign">
-          <i className="fa fa-heart-o heart-off" aria-hidden="true" />
-          &nbsp; <span>ABOUT ME</span>
-        </div>
-        <br />
-        <div className="smallersign">
+      <div className='aboutMe'>
+       <Title title='about me' />
+        <div className='smallersign'>
           <div>
             - BRIGHAM YOUNG UNIVERSITY
             <br />
@@ -24,7 +21,7 @@ const AboutMe = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default AboutMe;
+export default AboutMe

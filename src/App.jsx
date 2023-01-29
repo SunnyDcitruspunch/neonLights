@@ -1,14 +1,14 @@
-import React from "react";
-import Header from "./component/Header/Header";
-import AboutMe from "./component/AboutMe/AboutMe";
-import Timeline from "./component/Timeline/Timeline";
-import Resume from "./component/Resume/Resume";
-import Contact from "./component/Contact/Contact";
-import Footer from "./component/Footer/Footer";
+import React from 'react'
+import Header from './component/Header/Header'
+import AboutMe from './component/AboutMe/AboutMe'
+import Timeline from './component/Timeline/Timeline'
+import Resume from './component/Resume/Resume'
+import Contact from './component/Contact/Contact'
+import Footer from './component/Footer/Footer'
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <Header />
       <AboutMe />
       <Timeline />
@@ -16,7 +16,7 @@ function App() {
       <Contact />
       <Footer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

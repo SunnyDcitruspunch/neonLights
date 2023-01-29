@@ -1,3 +1,18 @@
+:root {
+  --spacing-size-a: 5px;
+  --spacing-size-b: 10px;
+  --spacing-size-c: 15px;
+  --spacing-size-d: 20px;
+  --spacing-size-e: 25px;
+  --spacing-size-f: 30px;
+
+  --sm-text-size: 13px;
+  --m-text-size: 15px;
+  --font-size-h3: 18px;
+  --l-text-size: 22px;
+  --xl-text-size: 28px;
+}
+
 body {
   background: url("./static/black_brick_wall.jpg");
   background-size: 100%;
