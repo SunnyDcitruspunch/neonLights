@@ -30,8 +30,30 @@ const Resume = () => {
             <span className='letter letter-4'>E</span>
             <span className='letter letter-1'> (Eng)</span>
           </span>
+          <br />
+          <br />
+          <br />
           &nbsp;
           <a target='_blank' href='https://drive.google.com/file/d/1lGzqJEUTDQZMpb4uleaSNOjOffY2sSyq/view?usp=share_link'>
+            <i className='fa fa-cloud-download letter-2' aria-hidden='true' />
+          </a>
+          <br />
+          <br />
+          <br />
+          <span>
+            <span className='letter letter-1'>R</span>
+            <span className='letter letter-2'>E</span>
+            <span className='letter letter-3'>S</span>
+            <span className='letter letter-4'>U</span>
+            <span className='letter letter-2'>M</span>
+            <span className='letter letter-4'>E</span>
+            <span className='letter letter-1'> (Chi)</span>
+          </span>
+          <br />
+          <br />
+          <br />
+          &nbsp;
+          <a target='_blank' href='https://drive.google.com/file/d/1KPF5Iup_veirc1asw8p1ustgsepZMbxu/view?usp=share_link'>
             <i className='fa fa-cloud-download letter-2' aria-hidden='true' />
           </a>
       </div>
