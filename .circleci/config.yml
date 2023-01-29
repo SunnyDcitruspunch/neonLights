@@ -18,7 +18,7 @@ jobs:
       - checkout
       - run: 
           name: Install dependency
-          command: 'npm install'
+          command: 'yarn'
       - run:
           name: Deploy Master to Firebase
           command: ./node_modules/.bin/firebase deploy --token="1//06skh2tGgFOlUCgYIARAAGAYSNwF-L9IrxDGObYlI_SNtt69xtWinchU7NeNNGiDVBhwtN2ccqaQeRYZlWhVIbO8QT6i-rcq--3E"
