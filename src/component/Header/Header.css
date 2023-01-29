@@ -42,7 +42,7 @@ body {
 }
 
 #header-smaller {
-  margin-right: var(--spacing-size-d);
+  margin-right: calc(100px + var(--spacing-size-d));
   position: fixed;
   right: 0;
 }

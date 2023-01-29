@@ -1,7 +1,5 @@
 .aboutMe {
-  --about-me-text-color: #c3b1e1;
-  --about-me-dark-shadow-color: #b399d4;
-  --about-me-light-shadow-color: #ce9dd9;
+  --about-me-link-color: #e82ff5;
 
   margin-top: var(--spacing-size-d);
   text-align: center;
@@ -9,26 +7,13 @@
   font-family: clipneon;
 }
 
-
-.aboutMe-title {
-  color: var(--about-me-text-color);
-  font-family: clipneon;
-  font-size: 3vw;
-  line-height: 3vw;
-  text-shadow: -0.1vw 0vw 0.1vw var(--about-me-text-color), -0.2vw 0vw 0.1vw var(--dark-shadow-color),
-    -0.4vw 0vw 0.8vw var(--dark-shadow-color), 0.2vw 0vw 0.5vw var(--dark-shadow-color), -0.1vw 0vw 0.5vw var(--dark-shadow-color),
-    -0.2vw 0vw 0.5vw var(--dark-shadow-color), -0.4vw 0vw 0.5vw var(--dark-shadow-color), -0.1vw 0vw 10vw var(--light-shadow-color),
-    -0.2vw 0vw 8vw var(--light-shadow-color), -0.4vw 0vw 8vw var(--light-shadow-color);
+.aboutMe a {
+  color: #fbb4ff;
+  text-shadow: -0.1vw 0vw 0.25vw #fbb4ff, -0.2vw 0vw 0.25vw #fbb4ff,
+    -0.4vw 0vw 0.25vw #fbb4ff, -0.1vw 0vw 1vw #e82ff5, -0.2vw 0vw 0.8vw #e82ff5,
+    -0.4vw 0vw 0.8vw #e82ff5, 0.2vw 0vw 0.5vw #e82ff5, -0.1vw 0vw 10vw #cb16fa,
+    -0.2vw 0vw 10vw #cb16fa, -0.4vw 0vw 10vw #cb16fa;
 }
-
-.smallersign {
-  color: var(--about-me-text-color);
-  font-family: clipneon;
-  font-size: 2vw;
-  line-height: 3vw;
-  text-shadow: -0.1vw 0vw 0.1vw var(--dark-shadow-color);
-}
-
-#nav {
-  float: left;
+.aboutMe a:hover {
+  cursor: pointer;
 }

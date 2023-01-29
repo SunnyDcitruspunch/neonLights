@@ -22,7 +22,7 @@ const Resume = () => {
           <br />
           <br />
           <br />
-          <span onClick={console.log('download')}>
+          <span>
             <span className='letter letter-1'>R</span>
             <span className='letter letter-2'>E</span>
             <span className='letter letter-3'>S</span>
