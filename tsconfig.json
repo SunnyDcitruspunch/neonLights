@@ -20,6 +20,6 @@
     "jsx": "preserve"
   },
   "include": [
-    "public"
-    , "public/common"  ]
+    "src"
+    , "src/common"  ]
 }
