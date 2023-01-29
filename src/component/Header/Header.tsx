@@ -30,6 +30,10 @@ export default class Header extends React.Component {
     if (header && distanceY > distanceWhenShrinkHeader) {
       if (window.innerWidth < smallestHeaderDisplayWidth) {
         header.style.display = 'none'
+      } else {
+        if(title) {
+          title.innerHTML = 'SY'
+        }
       }
 
       header.setAttribute('id', 'header-smallerTitle')

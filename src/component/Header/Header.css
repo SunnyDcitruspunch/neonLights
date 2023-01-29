@@ -51,7 +51,7 @@ body {
 }
 
 header {
-  height: 160px;
+  height: 200px;
   left: 0;
   margin-top: var(--spacing-size-d);
   overflow: hidden;
@@ -87,6 +87,12 @@ header {
 .header-titleWrapper h1::selection {
   background-color: var(--neon-border-color);
   color: var(--neon-text-color);
+}
+
+@media only screen and (max-width: 1800px) {
+  #header-smallerTitle {
+    margin-right: var(--spacing-size-b);
+  }
 }
 
 @media only screen and (max-width: 500px) {
