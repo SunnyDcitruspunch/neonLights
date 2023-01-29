@@ -1,34 +1,14 @@
+.resume {
+  --resume-text-size: 18px;
+  
+  font-size: var(--resume-text-size);
+  text-align: center;
+}
+
 @font-face {
   font-family: "Liberty";
   src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/907368/liberty.otf")
     format("otf");
-}
-
-.sign3 {
-  margin-top: 30px;
-  margin-bottom: 10px;
-  text-shadow: 0vw 0vw 3vw #f40a35;
-  color: #a9ffdc;
-  font-family: clipneon;
-  font-size: 3vw;
-  line-height: 3vw;
-  margin-bottom: 50;
-  color: #fff;
-  text-shadow: 
-    /* .1vw 0vw .25vw #FDF8FD, .2vw 0vw .25vw #FDF8FD, .4vw 0vw .25vw #FDF8FD,  */
-    /* .1vw 0vw .1vw #F1EC81, .2vw 0vw 0vw #F1EC81, .4vw 0vw 0vw #F1EC81, */
-    /* .1vw 0vw .1vw #F1EC81, .2vw 0vw .1vw #F1EC81, .4vw 0vw 0vw #F1EC81, */ 0.1vw
-      0vw 1vw #f1ec81,
-    0.2vw 0vw 2vw #f1ec81, 0.4vw 0vw 2vw #f1ec81, 0.2vw 0vw 5vw #f1ec81,
-    0.1vw 0vw 0.5vw #f2e90b, 0.2vw 0vw 0.5vw #f2e90b, 0.4vw 0vw 6vw #f2e90b;
-  /* .1vw 0vw 2vw #F2E90B, .2vw 0vw 5vw #F2E90B, .4vw 0vw 0vw #F2E90B; */
-}
-
-#resumecontainer {
-  align-self: center;
-  text-align: center;
-  height: 20em;
-  padding: 3em 0em 3em 0em;
 }
 
 .fa-cloud-download {
