@@ -34,7 +34,7 @@ body {
 #header h1 {
   font-style: italic;
   color: #fff;
-  padding: 2rem 3rem 0rem;
+  padding: var(--spacing-size-b) var(--spacing-size-c);
   border: 0.3rem solid #fff;
   border-radius: 2rem;
   text-transform: uppercase;
@@ -47,7 +47,7 @@ body {
   right: 0;
 }
 #header-smaller h1 {
-  font-size: 36px;
+  font-size: var(--l-text-size);
 }
 
 header {
