@@ -9,16 +9,6 @@ const Contact = () => {
           <i className='fa fa-github' aria-hidden='true' />
         </span>
       </a>
-      <div id='hlink'>
-        <h4>
-          <a target='blank' href='https://www.healthlinkcooperative.org/'>
-            HEALTHLINK
-            <br />
-            COOPERATIVE
-          </a>
-        </h4>
-      </div>
-
       <a target='blank' href='https://www.linkedin.com/in/sunny-yang-05ab11106/'>
         <span className='linkedin'>
           <i className='fa fa-linkedin-square' aria-hidden='true' />
