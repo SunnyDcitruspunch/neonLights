@@ -5,7 +5,7 @@ import './Resume.css'
 const Resume = () => {
   return (
     <div>
-      <Title title='contact me' />
+      <Title title='contact' />
       <div className='resume'>
         <i className='fa fa-envelope-o letter-2' aria-hidden='true' />
         &nbsp;
