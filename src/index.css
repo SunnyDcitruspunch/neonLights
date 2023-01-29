@@ -6,11 +6,9 @@
   --spacing-size-e: 25px;
   --spacing-size-f: 30px;
 
-  --sm-text-size: 13px;
-  --m-text-size: 15px;
-  --font-size-h3: 18px;
-  --l-text-size: 22px;
-  --xl-text-size: 36px;
+  --m-text-size: 28px;
+  --l-text-size: 36px;
+  --xl-text-size: 48px;
 }
 
 body {
@@ -33,6 +31,7 @@ code {
 p {
   color: #fff;
   font-family: clipneon;
+  font-size: var(--l-text-size);
   text-shadow: -0.2rem -0.2rem 1rem #fff, 0.2rem 0.2rem 1rem #fff,
     0 0 2rem var(--neon-text-color);
 }

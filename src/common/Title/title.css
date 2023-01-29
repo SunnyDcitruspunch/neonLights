@@ -1,5 +1,6 @@
 .title {
   --heart-icon-font-size: 45px;
+  --title-font-size: 50px;
 
   align-items: baseline;
   display: flex;
@@ -20,7 +21,7 @@
 .title h1 {
   color: #fff;
   font-family: clipneon;
-  font-size: calc(var(--l-text-size)*2);
+  font-size: var(--title-font-size);
   line-height: 3vh;
   text-shadow: .1vw 0vw 1vw #F1EC81, .2vw 0vw 2vw #F1EC81, .4vw 0vw 2vw #F1EC81, .2vw 0vw 5vw #F1EC81,
   .1vw 0vw .5vw #F2E90B, .2vw 0vw .5vw #F2E90B, .4vw 0vw 6vw #F2E90B;

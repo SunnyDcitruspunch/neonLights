@@ -1,5 +1,5 @@
 .rollingText-company {
-  font-size: 3em;
+  margin-bottom: 0;
 }
 
 .rollingText-scrolling {
@@ -10,13 +10,13 @@
 
 .rollingText-skills {
   animation: scrolling 13s linear infinite;
-  font-size: 2em;
   font-family: clipneon;
+  font-size: var(--m-text-size);
   float: left;
   position: absolute;
   width: 100%;
   height: 100%;
-  line-height: 10px;
+  line-height: var(--spacing-size-b);
   transform: translateX(100%);
 
   -moz-transform: translateX(100%);
