@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <div>
       <Title title='experience' />
-      {resume.map(item => {
+      {resume.map((item) => {
         return <RollingText key={item.id} company={item.company} skills={item.skills} />
       })}
     </div>
