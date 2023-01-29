@@ -13,11 +13,11 @@
   font-family: clipneon;
   font-size: var(--m-text-size);
   float: left;
-  position: absolute;
-  width: 100%;
   height: 100%;
-  line-height: var(--spacing-size-b);
+  position: absolute;
   transform: translateX(100%);
+  width: 100%;
+  white-space: nowrap;
 
   -moz-transform: translateX(100%);
   -webkit-transform: translateX(100%);
