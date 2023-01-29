@@ -2,6 +2,8 @@
 # See: https://circleci.com/docs/2.0/configuration-reference
 version: 2.1
 
+
+
 # Define a job to be invoked later in a workflow.
 # See: https://circleci.com/docs/2.0/configuration-reference/#jobs
 jobs:
@@ -15,12 +17,19 @@ jobs:
     steps:
       - checkout
       - run:
-          name: "Say hello"
-          command: "echo Hello, World!"
+          name: Deploy Master to Firebase
+          command: ./node_modules/.bin/firebase deploy --token="1//06skh2tGgFOlUCgYIARAAGAYSNwF-L9IrxDGObYlI_SNtt69xtWinchU7NeNNGiDVBhwtN2ccqaQeRYZlWhVIbO8QT6i-rcq--3E"
+      - run: cd functions && npm install
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
-  say-hello-workflow:
+   deploy:
     jobs:
-      - say-hello
+      - build-job
+      - deploy-job:
+          requires:
+            - build-job
+          filters:
+            branches:
+              only: master
