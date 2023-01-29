@@ -7,7 +7,9 @@ const Resume = () => {
     <div>
       <Title title='contact' />
       <div className='resume'>
-        <i className='fa fa-envelope-o letter-2' aria-hidden='true' />
+        <a href={`mailto:${'hahasunny97@gmail.com'}`} rel='noopener noreferrer' target='_blank'>
+          <i className='fa fa-envelope-o letter-2' aria-hidden='true' />
+        </a>
         &nbsp;
         <span className='letter letter-1'>ha</span>
         <span className='letter letter-2'>h</span>
@@ -59,7 +61,7 @@ const Resume = () => {
         &nbsp;
         <a
           target='_blank'
-          href='https://drive.google.com/file/d/1KPF5Iup_veirc1asw8p1ustgsepZMbxu/view?usp=share_link'
+          href='https://drive.google.com/file/d/1aNoXJUl1uHo9HmCxtpyasDKYhB57GuT1/view?usp=share_link'
           rel='noopener noreferrer'
         >
           <i className='fa fa-cloud-download letter-2' aria-hidden='true' />
