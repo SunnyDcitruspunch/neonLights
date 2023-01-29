@@ -31,7 +31,7 @@ export default class Header extends React.Component {
       if (window.innerWidth < smallestHeaderDisplayWidth) {
         header.style.display = 'none'
       } else {
-        if(title) {
+        if (title) {
           title.innerHTML = 'SY'
         }
       }

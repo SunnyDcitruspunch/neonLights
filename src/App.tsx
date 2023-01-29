@@ -7,18 +7,18 @@ import Contact from './component/Contact/Contact'
 import Footer from './component/Footer/Footer'
 
 class App extends Component {
- render(): ReactElement {
-  return (
-    <div className='App'>
-      <Header />
-      <AboutMe />
-      <Timeline />
-      <Resume />
-      <Contact />
-      <Footer />
-    </div>
-  )
- }
+  render(): ReactElement {
+    return (
+      <div className='App'>
+        <Header />
+        <AboutMe />
+        <Timeline />
+        <Resume />
+        <Contact />
+        <Footer />
+      </div>
+    )
+  }
 }
 
 export default App
