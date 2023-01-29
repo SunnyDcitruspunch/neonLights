@@ -26,7 +26,4 @@ jobs:
 workflows:
    deploy:
     jobs:
-      - deploy-job:
-          filters:
-            branches:
-              only: master
+      - say-hello
