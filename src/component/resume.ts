@@ -1,5 +1,10 @@
 export const resume = [
   {
+    company: 'DataBased - Full Stack Software Engineer (2019 Nov - Present)',
+    id: 0,
+    skills: ['React', 'CSS & Canvas', 'Node.js', 'Postgres SQL', 'TDD (Test driven development)'],
+  },
+  {
     company: 'Healthlink Cooperative - Director of Information Systems',
     id: 1,
     skills: ['Excel - VBA', 'SQL', 'ASP.NET', 'Vue.js'],
